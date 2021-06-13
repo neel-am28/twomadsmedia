@@ -1,5 +1,5 @@
 <!-- Footer Starts Here -->
-<footer>
+<!-- <footer>
   <div class="container">
     <div class="row">
       <div class="col-md-3 footer-item">
@@ -66,7 +66,7 @@
       </div>
     </div>
   </div>
-</footer>
+</footer> -->
 
 <div class="sub-footer">
   <div class="container">
@@ -88,7 +88,7 @@
 <script src="assets/js/jquery.singlePageNav.min.js"></script>
 <script src="assets/js/custom.js"></script>
 <script src="assets/js/owl.js"></script>
-<script src="assets/js/slick.js"></script>
+<!-- <script src="assets/js/slick.js"></script> -->
 <script src="assets/js/accordions.js"></script>
 <script>
   $(function () {

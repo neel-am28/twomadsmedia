@@ -7,10 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="TwoMadsMedia">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
-    rel="stylesheet">
+  <!-- Android -->
+  <link rel="shortcut icon" sizes="196x196" href="/path/to/favicon-196.png">
+  <!-- iOS -->
+  <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png" sizes="120x120">
+  <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png" sizes="152x152">
+  <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png" sizes="180x180">
 
-    <title>Budget Friendly Digital Marketing Agency in Mumbai, Maharashtra</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+  <title>Budget Friendly Digital Marketing Agency in Mumbai, Maharashtra</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -19,13 +26,6 @@
   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/css/owl.css">
-  <!--
-
-Finance Business TemplateMo
-
-https://templatemo.com/tm-545-finance-business
-
--->
 </head>
 
 <body>
@@ -46,16 +46,31 @@ https://templatemo.com/tm-545-finance-business
       <div class="row">
         <div class="col-md-8 col-xs-12">
           <ul class="left-info">
-            <li><a href="mailto:connect@twomadsmedia.com"><i class="fa fa-envelope-o"></i>connect@twomadsmedia.com</a></li>
-            <li><a href="tel:9637374782"><i class="fa fa-phone"></i>9637374782</a></li>
-            <li><a href="tel:9699906857"><i class="fa fa-mobile"></i>9699906857</a></li>
+            <li><a href="mailto:connect@twomadsmedia.com"><i class="fa fa-envelope-o" aria-label="connect@twomadsmedia.com"></i>connect@twomadsmedia.com</a></li>
+            <li><a href="tel:9637374782" aria-label="9 6 3 7 3 7 4 7 8 2"><i class="fa fa-phone"></i>9637374782</a></li>
+            <li><a href="tel:9699906857" aria-label="9 6 9 9 9 0 6 8 5 7"><i class="fa fa-mobile"></i>9699906857</a></li>
           </ul>
         </div>
         <div class="col-md-4">
           <ul class="right-icons">
-            <li class="social-links facebook"><a href="https://www.facebook.com/Twomads_media"><i class="fa fa-facebook"></i></a></li>
-            <li class="social-links instagram"><a href="https://www.instagram.com/twomads_media/"><i class="fa fa-instagram"></i></a></li>
-            <li class="social-links linkedin"><a href="https://www.linkedin.com/twomads_media/"><i class="fa fa-linkedin"></i></a></li>
+            <li class="social-links facebook">
+              <a href="https://www.facebook.com/Twomads_media">
+                <i class="fa fa-facebook"></i>
+                <span class="sr-only">TwoMada Media Facebook</span>
+              </a>
+            </li>
+            <li class="social-links instagram">
+              <a href="https://www.instagram.com/twomads_media/">
+                <i class="fa fa-instagram"></i>
+                <span class="sr-only">TwoMada MediaInstagram</span>
+              </a>
+            </li>
+            <li class="social-links linkedin">
+              <a href="https://www.linkedin.com/twomads_media/">
+                <i class="fa fa-linkedin"></i>
+                <span class="sr-only">TwoMada Media Linkedin</span>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -80,13 +95,13 @@ https://templatemo.com/tm-545-finance-business
               </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#about" aria-label="About">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="services.php">Services</a>
+              <a class="nav-link" href="services.php" aria-label="Services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contactus">Contact Us</a>
+              <a class="nav-link" href="#contactus" aria-label="Contact Us">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -97,14 +112,15 @@ https://templatemo.com/tm-545-finance-business
   <!-- Page Content -->
   <!-- Banner Starts Here -->
   <div class="main-banner header-text" id="top">
-    <div class="Modern-Slider">
+    <div class="banner">
       <!-- Item -->
-      <div class="item item-1">
+      <div class="item">
         <div class="img-fill">
-          <div class="text-content">
+          <div class="text-content-container">
             <h4>WELCOME TO <br>TWOMADS MEDIA</h4>
             <p>Every Business Idea Needs an Appropriate Media to Prosper. <br>That’s What We Are!</p>
             <a href="#features" class="scroll-mouse">
+              <span class="sr-only">Scroll Down</span>
               <div class="scroll-downs">
                 <div class="mousey">
                   <div class="scroller"></div>
