@@ -7,33 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="TwoMadsMedia">
-    <!-- Android -->
-    <link rel="shortcut icon" sizes="196x196" href="/path/to/favicon-196.png">
     <!-- iOS -->
-    <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png" sizes="120x120">
-    <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png" sizes="152x152">
-    <link rel="apple-touch-icon" href="assets/images/favicon/apple-touch-icon.png" sizes="180x180">
+    <link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon.png" sizes="120x120">
+    <link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon.png" sizes="152x152">
+    <link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon.png" sizes="180x180">
 
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/favicon/site.webmanifest">
     <title>Budget Friendly Digital Marketing Agency in Mumbai, Maharashtra</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/owl.css">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> -->
 </head>
 
 <body>
     <!-- Loader -->
-    <!-- <div class="loader-container">
+    <div class="loader-container">
         <img src="./assets/images/logo.svg" alt="Two Mads Media" class="loader-img">
-    </div> -->
+    </div>
     <!-- Loader end -->
     <!-- Header -->
     <div id="content">
