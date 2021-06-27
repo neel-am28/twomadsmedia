@@ -2,22 +2,23 @@ jQuery(document).ready(function ($) {
 
 
     "use strict";
+    // Welcome screen fading animation
+    // Initially hide the loader, then after 2000ms load it, after it is completed, hide this and show main content
+    // $('.loader-container').css('display', 'none');
+    // $(function () {
+    //     $('.loader-container').fadeIn(2000);
+    //     $('#content').hide();
+    //     setTimeout(function () {
+    //         $('.loader-container').fadeOut('slow', function () {
+    //             $('#content').fadeIn(1500);
+    //             $("html,body").scrollTop(1);
+    //         });
+    //     }, 3000);
 
-
-
+    // });
+    // Welcome screen fading animation end
     $(function () {
         $("#tabs").tabs();
-    });
-
-
-    // Page loading animation
-
-    $("#preloader").animate({
-        'opacity': '0'
-    }, 600, function () {
-        setTimeout(function () {
-            $("#preloader").css("visibility", "hidden").fadeOut();
-        }, 300);
     });
 
     $(window).scroll(function () {
@@ -31,115 +32,6 @@ jQuery(document).ready(function ($) {
             $("header").removeClass("background-header");
         }
     });
-    if ($('.owl-testimonials').length) {
-        $('.owl-testimonials').owlCarousel({
-            loop: true,
-            nav: false,
-            dots: true,
-            items: 1,
-            margin: 30,
-            autoplay: false,
-            smartSpeed: 700,
-            autoplayTimeout: 6000,
-            responsive: {
-                0: {
-                    items: 1,
-                    margin: 0
-                },
-                460: {
-                    items: 1,
-                    margin: 0
-                },
-                576: {
-                    items: 2,
-                    margin: 20
-                },
-                992: {
-                    items: 2,
-                    margin: 30
-                }
-            }
-        });
-    }
-    if ($('.owl-partners').length) {
-        $('.owl-partners').owlCarousel({
-            loop: true,
-            nav: false,
-            dots: true,
-            items: 1,
-            margin: 30,
-            autoplay: false,
-            smartSpeed: 700,
-            autoplayTimeout: 6000,
-            responsive: {
-                0: {
-                    items: 1,
-                    margin: 0
-                },
-                460: {
-                    items: 1,
-                    margin: 0
-                },
-                576: {
-                    items: 2,
-                    margin: 20
-                },
-                992: {
-                    items: 4,
-                    margin: 30
-                }
-            }
-        });
-    }
-
-    $(".Modern-Slider").slick({
-        autoplay: true,
-        autoplaySpeed: 10000,
-        speed: 600,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        pauseOnHover: false,
-        dots: true,
-        pauseOnDotsHover: true,
-        cssEase: 'linear',
-        // fade:true,
-        draggable: false,
-        prevArrow: '<button class="PrevArrow"></button>',
-        nextArrow: '<button class="NextArrow"></button>',
-    });
-
-    function visible(partial) {
-        var $t = partial,
-            $w = jQuery(window),
-            viewTop = $w.scrollTop(),
-            viewBottom = viewTop + $w.height(),
-            _top = $t.offset().top,
-            _bottom = _top + $t.height(),
-            compareTop = partial === true ? _bottom : _top,
-            compareBottom = partial === true ? _top : _bottom;
-
-        return ((compareBottom <= viewBottom) && (compareTop >= viewTop) && $t.is(':visible'));
-
-    }
-
-    $(window).scroll(function () {
-
-        if (visible($('.count-digit'))) {
-            if ($('.count-digit').hasClass('counter-loaded')) return;
-            $('.count-digit').addClass('counter-loaded');
-
-            $('.count-digit').each(function () {
-                var $this = $(this);
-                jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
-                    duration: 3000,
-                    easing: 'swing',
-                    step: function () {
-                        $this.text(Math.ceil(this.Counter));
-                    }
-                });
-            });
-        }
-    })
 
 });
 $(document).ready(function () {
@@ -246,9 +138,51 @@ $(document).ready(function () {
         var slide = $(Parent).attr("data-slide");
         ResCarousel(ell, Parent, slide);
     }
-    // Services On HOver Animation Start
-    $('.has-dropdown').hover(function () {
-        $(this).toggleClass('open');
+
+    // About section read more/read less
+    $('#about .read-more-btn').click(function (e) {
+        e.preventDefault();
+        $('#about .read-more-content').slideDown("slow");
+        $('#about .read-less-btn').css('display', 'inline-block');
+        $(this).css('display', 'none');
+        // $(this).text(($(this).text() == 'Read More') ? 'Read Less' : 'Read More').fadeIn();
     });
-    // Services On HOver Animation End
+    $('#about .read-less-btn').click(function (e) {
+        e.preventDefault();
+        $('#about .read-more-content').slideUp("slow");
+        $('#about .read-more-btn').css('display', 'inline-block');
+        $(this).css('display', 'none');
+    });
+    // About section read more/read less End
+
+    // Our Services image slider
+    $(".single-service").mouseover(function (e) {
+        // console.log($(this).find('.service-icons').attr("src"))
+        // $(this).fadeOut();
+        $(this).find('.service-icons').attr("src", $(this).find('.service-icons').attr("src").replace("-blue", "-peach"));
+    }).mouseout(function (e) {
+        $(this).find('.service-icons').attr("src", $(this).find('.service-icons').attr("src").replace("-peach", "-blue"));
+    });
+    // Our Services image slider End
+    // Our Team Slider
+    $("#owl-demo").owlCarousel({
+        items: 1,
+        navigation: true, // Show next and prev buttons
+        loop: true,
+        nav: true,
+        autoplay: true,
+        autoplayTimeout: 5000, // after every 5s, slide will change
+        autoplaySpeed: 1000, // auto play speed is set to 1s to change b/w slides
+        dots: false,
+        smartSpeed: 1000 // on click speed of changing slides
+
+        // "singleItem:true" is a shortcut for:
+        // items : 1, 
+        // itemsDesktop : false,
+        // itemsDesktopSmall : false,
+        // itemsTablet: false,
+        // itemsMobile : false
+
+    });
+    // Our Team Slider End
 });
