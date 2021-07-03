@@ -2201,7 +2201,7 @@ ul.footer-social-links li:hover a .fa,
     height: 360px;
   }
   .banner .item .img-fill {
-    height: 60vh;
+    height: 80vh;
   }
 }
 @media (min-width: 1800px) {
