@@ -29,12 +29,9 @@
             <div class="col-md-5 offset-md-1 col-sm-6 col-xs-12 footer-item footer-right">
                 <h4>Contact us at</h4>
                 <ul class="menu-list footer-contact-us">
-                    <li><a href="mailto:connect@twomadsmedia.com"><i class="fa fa-envelope-o"
-                                aria-label="connect@twomadsmedia.com"></i>connect@twomadsmedia.com</a></li>
-                    <li><a href="tel:9637374782" aria-label="9 6 3 7 3 7 4 7 8 2"><i
-                                class="fa fa-mobile"></i>9637374782</a></li>
-                    <li><a href="tel:9699906857" aria-label="9 6 9 9 9 0 6 8 5 7"><i
-                                class="fa fa-mobile"></i>9699906857</a></li>
+                    <li><a href="mailto:connect@twomadsmedia.com"><i class="fa fa-envelope-o" aria-label="connect@twomadsmedia.com"></i>connect@twomadsmedia.com</a></li>
+                    <li><a href="tel:9637374782" aria-label="9 6 3 7 3 7 4 7 8 2"><i class="fa fa-mobile"></i>9637374782</a></li>
+                    <li><a href="tel:9699906857" aria-label="9 6 9 9 9 0 6 8 5 7"><i class="fa fa-mobile"></i>9699906857</a></li>
                 </ul>
             </div>
             <!-- <div class="col-md-3 footer-item">
@@ -91,6 +88,7 @@
                     document.write(new Date().getFullYear())
                     </script> Two Mads Media</p>
             </div>
+            <p class="made-with">Handcrafted with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="http://linkedin.com/in/neelamchaubey">Neelam Chaubey</a> & <a href="http://linkedin.com/in/vivek-chaurasia-071aa4137">Vivek Chaurasia</a></p>
         </div>
     </div>
 </div>
