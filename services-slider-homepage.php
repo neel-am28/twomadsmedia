@@ -110,7 +110,7 @@
             <div class="main">
                 <div class="service">
                     <div class="service-logo">
-                        <img src="assets/images/svg/reputation-management-blue.svg" alt="Brand Building">
+                        <img src="assets/images/svg/brand-building-blue.svg" alt="Brand Building">
                     </div>
                     <h4>Brand Building</h4>
                     <a class="read-more" href="services.php?service=brand-building">Know More</a>
@@ -123,7 +123,7 @@
             <div class="main">
                 <div class="service">
                     <div class="service-logo">
-                        <img src="assets/images/svg/paid-promotion-blue.svg" alt="Sales Promotion Strategy">
+                        <img src="assets/images/svg/sales-promotion-strategy-blue.svg" alt="Sales Promotion Strategy">
                     </div>
                     <h4>Sales Promotion Strategy</h4>
                     <a class="read-more" href="services.php?service=sales-promotion-strategy">Know More</a>

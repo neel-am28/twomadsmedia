@@ -4,10 +4,16 @@
     <head>
 
         <meta charset="utf-8">
-        <meta theme-color="#547d8f">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
         <meta name="author" content="TwoMadsMedia">
+        <meta name="description" content="Budget Friendly Digital Marketing Agency in Mumbai, Maharashtra" <link rel="canonical" href='http://www.twomadsmedia.com' />
+        <meta name="theme-color" content="#547d8f">
+        <meta property='og:title' content='Two Mads Media' />
+        <meta property='og:url' content='http://www.twomadsmedia.com' />
+        <meta property='og:type' content='website' />
+        <meta property='og:description' content='Budget Friendly Digital Marketing Agency in Mumbai, Maharashtra' />
+        <meta property='og:image' content='./assets/images/og-image.jpg' />
+        <link rel="canonical" href='http://www.twomadsmedia.com' />
         <!-- iOS -->
         <link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon.png" sizes="120x120">
         <link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon.png" sizes="152x152">
@@ -16,7 +22,7 @@
         <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
         <link rel="manifest" href="./assets/images/favicon/site.webmanifest">
-        <title>Budget Friendly Digital Marketing Agency in Mumbai, Maharashtra</title>
+        <title>Two Mads Media</title>
 
         <!-- Bootstrap core CSS -->
         <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
@@ -76,7 +82,7 @@
                 <nav class="navbar navbar-expand-lg">
                     <div class="container">
                         <a class="navbar-brand" href="index.html">
-                            <img src="./assets/images/logo.svg" alt="Two Mads Media">
+                            <img src="./assets/images/logo-svg-white.svg" alt="Two Mads Media" class="w-100 top-logo">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -115,8 +121,9 @@
                         <div class="img-fill">
                             <div class="text-content-container">
                                 <h4>WELCOME TO <br>TWOMADS MEDIA</h4>
-                                <p>Every Business Idea Needs an Appropriate Media to Prosper. <br>That’s What We Are!</p>
-                                <a href="#about" class="scroll-mouse">
+                                <p>Every Business Idea Needs an Appropriate Media to Prosper.</p>
+                                <p>That’s What We Are!</p>
+                                <a href="#about" class="scroll-mouse d-none">
                                     <span class="sr-only">Scroll Down</span>
                                     <div class="scroll-downs">
                                         <div class="mousey">

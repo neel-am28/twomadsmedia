@@ -1,9 +1,8 @@
-<div class="accordion w-100 d-xs-block d-sm-block d-md-none d-lg-none" id="accordionExample">
+<div class="accordion w-100 d-block d-lg-none" id="accordionExample">
     <div class="card">
         <div class="card-header" id="headingOne">
             <h2 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
-                    aria-expanded="true" aria-controls="collapseOne">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                     Social Media Management
                 </button>
                 <i class="fa fa-plus"></i>
@@ -28,8 +27,7 @@
     <div class="card">
         <div class="card-header" id="headingTwo">
             <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="false" aria-controls="collapseTwo">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     Content Writing
                 </button><i class="fa fa-plus"></i>
             </h2>
@@ -49,8 +47,7 @@
     <div class="card">
         <div class="card-header" id="headingThree">
             <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
-                    aria-expanded="false" aria-controls="collapseThree">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                     Website Designing and Development
                 </button><i class="fa fa-plus"></i>
             </h2>
@@ -71,8 +68,7 @@
     <div class="card">
         <div class="card-header" id="headingFour">
             <h2 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour"
-                    aria-expanded="true" aria-controls="collapseFour">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                     Graphic Designing
                 </button><i class="fa fa-plus"></i>
             </h2>
@@ -95,15 +91,14 @@
     <div class="card">
         <div class="card-header" id="headingFive">
             <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
-                    aria-expanded="false" aria-controls="collapseFive">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                     Digital/Commercial Advertisement Creation
                 </button><i class="fa fa-plus"></i>
             </h2>
         </div>
         <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
             <div class="card-body text-justify">
-                <img src="assets/images/advertisement-creation.jpg" alt="" class="w-100 mb-4">
+                <img src="assets/images/digital-and-commercial-advertisement-creation.jpg" alt="" class="w-100 mb-4">
                 An advertisement lets you connect more effectively with your audience through
                 appealing
                 visuals and audio. Their absolute delivery is said to possess higher possibilities
@@ -117,35 +112,11 @@
             </div>
         </div>
     </div>
-    <!-- <div class="card">
-                            <div class="card-header" id="headingSix">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                        Print Media
-                                    </button><i class="fa fa-plus"></i>
-                                </h2>
-                            </div>
-                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix"
-                                data-parent="#accordionExample">
-                                <div class="card-body text-justify">
-                                    <img src="assets/images/single_service_01.jpg" alt="" class="w-100 mb-4">
-                                    Including print media makes your marketing reach flexible to target the intended
-                                    audience. We analytically adopt the best suitable medium for your marketing and not
-                                    letting your growth feel restricted at any point of time. Rich content with
-                                    appealing
-                                    campaigns and visually attractive print designs is all taken care of. Also, we offer
-                                    you
-                                    the lowest rates of printing compared to the prevalent costs in the market.
-                                </div>
-                            </div>
-                        </div> -->
 
     <div class="card">
         <div class="card-header" id="headingSeven">
             <h2 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven"
-                    aria-expanded="true" aria-controls="collapseSeven">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
                     Product Photography
                 </button><i class="fa fa-plus"></i>
             </h2>
@@ -168,8 +139,7 @@
     <div class="card">
         <div class="card-header" id="headineEight">
             <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight"
-                    aria-expanded="false" aria-controls="collapseEight">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                     Reputation Management
                 </button><i class="fa fa-plus"></i>
             </h2>
@@ -195,8 +165,7 @@
     <div class="card">
         <div class="card-header" id="headingNine">
             <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine"
-                    aria-expanded="false" aria-controls="collapseNine">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                     Paid Promotions
                 </button><i class="fa fa-plus"></i>
             </h2>
@@ -218,8 +187,7 @@
     <div class="card">
         <div class="card-header" id="headingTen">
             <h2 class="mb-0">
-                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTen"
-                    aria-expanded="true" aria-controls="collapseTen">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
                     Brand Building
                 </button><i class="fa fa-plus"></i>
             </h2>
@@ -245,8 +213,7 @@
     <div class="card">
         <div class="card-header" id="headingEleven">
             <h2 class="mb-0">
-                <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                    data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
                     Sales Promotion Strategy
                 </button><i class="fa fa-plus"></i>
             </h2>
