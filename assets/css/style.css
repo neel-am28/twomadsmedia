@@ -2275,7 +2275,7 @@ ul.footer-social-links li:hover a .fa,
     background-image: linear-gradient(150deg, rgb(53 53 53 / 48%), rgb(0 0 0 / 80%)), url(../images/landing-2-mobile.jpg);
   }
   .banner .item .services-img-fill {
-    background-image: linear-gradient(150deg, rgb(53 53 53 / 48%), rgb(0 0 0 / 80%)), url(../images/our-services-banner.jpg) !important;
+    background-image: linear-gradient(150deg, rgb(53 53 53 / 48%), rgb(0 0 0 / 80%)), url(../images/our-services-banner-mobile.jpg) !important;
     /* background-attachment: fixed; */
     background-position-y: initial;
   }
