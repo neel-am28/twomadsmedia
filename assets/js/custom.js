@@ -5,17 +5,17 @@ jQuery(document).ready(function ($) {
     // Welcome screen fading animation
     // Initially hide the loader, then after 2000ms load it, after it is completed, hide this and show main content
     $('.loader-container').css('display', 'none');
-    // $(function () {
-    //     $('.loader-container').fadeIn(2000);
-    //     $('#content').hide();
-    //     setTimeout(function () {
-    //         $('.loader-container').fadeOut('slow', function () {
-    //             $('#content').fadeIn(1500);
-    //             $("html,body").scrollTop(1);
-    //         });
-    //     }, 3000);
+    $(function () {
+        $('.loader-container').fadeIn(2000);
+        $('#content').hide();
+        setTimeout(function () {
+            $('.loader-container').fadeOut('slow', function () {
+                $('#content').fadeIn(1500);
+                $("html,body").scrollTop(1);
+            });
+        }, 3000);
 
-    // });
+    });
     // Welcome screen fading animation end
     $(function () {
         $("#tabs").tabs();

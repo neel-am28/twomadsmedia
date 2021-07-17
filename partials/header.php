@@ -36,9 +36,9 @@
 
     <body>
         <!-- Loader -->
-        <!-- <div class="loader-container">
-        <img src="./assets/images/logo.svg" alt="Two Mads Media" class="loader-img">
-    </div> -->
+        <div class="loader-container">
+            <img src="./assets/images/logo.svg" alt="Two Mads Media" class="loader-img">
+        </div>
         <!-- Loader end -->
         <!-- Header -->
         <div id="content">
