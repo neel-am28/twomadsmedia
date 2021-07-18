@@ -12,7 +12,7 @@
         <meta property='og:url' content='http://www.twomadsmedia.com' />
         <meta property='og:type' content='website' />
         <meta property='og:description' content='Budget Friendly Digital Marketing Agency in Mumbai, Maharashtra' />
-        <meta property='og:image' content='./assets/images/og-image.jpg' />
+        <meta property='og:image' itemprop="image" content='http://www.twomadsmedia.com/assets/images/og-image.jpg' />
         <link rel="canonical" href='http://www.twomadsmedia.com' />
         <!-- iOS -->
         <link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon.png" sizes="120x120">
