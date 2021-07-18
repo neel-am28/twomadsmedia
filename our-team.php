@@ -4,7 +4,7 @@
         <div class="card">
             <h2>Chinmay S. Vichare</h2>
             <div class="image-box">
-                <img src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Chinmay S. Vichare, Chief of Operations, Content Strategist" title="Chinmay S. Vichare, Chief of Operations, Content Strategist">
+                <img src="assets/images/chief-operations.jpg" alt="Chinmay S. Vichare, Chief of Operations, Content Strategist" title="Chinmay S. Vichare, Chief of Operations, Content Strategist">
             </div>
             <div class="content">
                 <h4>Chinmay S. Vichare</h4>
