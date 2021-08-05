@@ -8,16 +8,16 @@
 
 <!-- Additional Scripts -->
 <script src="./assets/js/accordions.js"></script>
-<script src="./assets/js/jquery.singlePageNav.min.js"></script>
+<!-- <script src="./assets/js/jquery.singlePageNav.min.js"></script> -->
 <script src="./assets/js/custom.js"></script>
 <!-- <script src="assets/js/slick.js"></script> -->
 <script>
 $(function() {
     // Single Page Nav
-    $('#navbarResponsive').singlePageNav({
-        'offset': 100,
-        'filter': ':not(.external)'
-    });
+    // $('#navbarResponsive').singlePageNav({
+    //     'offset': 100,
+    //     'filter': ':not(.external)'
+    // });
 
     // On mobile, close the menu after nav-link click
     $('#navbarResponsive .navbar-nav .nav-item .nav-link').click(function() {
@@ -36,7 +36,20 @@ function clearField(t) { //declaring the array outside of the
     }
 }
 </script>
-
+<script>
+$(function() {
+    $('a[href*=\\#]:not([href=\\#])').on('click', function() {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.substr(1) + ']');
+        if (target.length) {
+            $('html,body').animate({
+                scrollTop: target.offset().top - 150
+            }, 1000);
+            return false;
+        }
+    });
+});
+</script>
 </body>
 
 </html>

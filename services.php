@@ -6,12 +6,12 @@
         <meta charset="utf-8">
         <meta name="theme-color" content="#547d8f">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="author" content="TwoMadsMedia">
-        <meta property='og:title' content='Two Mads Media | Services' />
+        <meta name="author" content="Twomads Media">
+        <meta property='og:title' content='Twomads Media | Services' />
         <meta property='og:url' content='http://www.twomadsmedia.com' />
         <meta property='og:type' content='website' />
         <meta property='og:description' content='Budget Friendly Digital Marketing Agency in Mumbai, Maharashtra' />
-        <meta property='og:image' itemprop="image" content='http://www.twomadsmedia.com/assets/images/og-image.jpg' />
+        <meta property='og:image' itemprop="image" content='http://www.twomadsmedia.com/../assets/images/og-image.jpg' />
         <link rel="canonical" href='http://www.twomadsmedia.com/services.php' />
         <!-- iOS -->
         <link rel="apple-touch-icon" href="./assets/images/favicon/apple-touch-icon.png" sizes="120x120">
@@ -21,12 +21,12 @@
         <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png">
         <link rel="manifest" href="./assets/images/favicon/site.webmanifest">
-        <title>Two Mads Media | Services</title>
+        <title>Twomads Media | Services</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="./assets/css/fontawesome.css">
-        <link rel="stylesheet" href="./assets/css/style.css">
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/css/fontawesome.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
 
         <!-- Additional CSS Files -->
         <style>
@@ -87,8 +87,8 @@
             <header class="">
                 <nav class="navbar navbar-expand-lg">
                     <div class="container">
-                        <a class="navbar-brand" href="index.php">
-                            <img src="./assets/images/logo-svg-white.svg" alt="Two Mads Media">
+                        <a class="navbar-brand" href="../">
+                            <img src="./assets/images/logo-svg-white.svg" alt="Twomads Media" class="w-100 top-logo services-logo">
                         </a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
@@ -96,21 +96,21 @@
                         <div class="collapse navbar-collapse" id="navbarResponsive">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link current" href="index.php">Home
+                                    <a class="nav-link current" href="../">Home
                                         <span class="sr-only">(current)</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.php" aria-label="About">About</a>
+                                    <a class="nav-link" href="../" aria-label="About">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.php" aria-label="Services">Services</a>
+                                    <a class="nav-link" href="../" aria-label="Services">Services</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.php" aria-label="Our Team">Our team</a>
+                                    <a class="nav-link" href="../" aria-label="Our Team">Our team</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="index.php" aria-label="Contact Us">Contact Us</a>
+                                    <a class="nav-link" href="../" aria-label="Contact Us">Contact Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -159,7 +159,7 @@
                         <div class="col-lg-8 d-none d-lg-block">
                             <section class='tabs-content'>
                                 <article id='social-media-management'>
-                                    <img src="assets/images/social-media-management.jpg" alt="Social Media Management" title="Social Media Management">
+                                    <img src="../assets/images/social-media-management.jpg" alt="Social Media Management" title="Social Media Management">
                                     <h4>Social Media Management</h4>
                                     <p>According to a research, the platform of social media shall prove to be the
                                         game-changer
@@ -178,7 +178,7 @@
                                     </p>
                                 </article>
                                 <article id='content-writing'>
-                                    <img src="assets/images/content-writing.jpg" alt="Content Writing" title="Content Writing">
+                                    <img src="../assets/images/content-writing.jpg" alt="Content Writing" title="Content Writing">
                                     <h4>Content Writing</h4>
                                     <p>A written content is not only meant for providing information, but it has
                                         extraordinary
@@ -192,13 +192,13 @@
                                     </p>
                                 </article>
                                 <article id='website-designing-and-development'>
-                                    <img src="assets/images/website-designing-and-development.jpg" alt="Website Designing and Development" title="Website Designing and Development">
+                                    <img src="../assets/images/website-designing-and-development.jpg" alt="Website Designing and Development" title="Website Designing and Development">
                                     <h4>Website Designing and Development</h4>
                                     <p>A company’s website is considered as the face of your business, therefore should pose a strong impression on the viewer in the very first instance. This helps in depicting your position in the business. Our website designing and development team designs a website that is aesthetically appealing as well as user-friendly with extreme proficiency. The further value is added by the SEO rich content that our content writing team creates for your website. We provide website designing and development services for static as well as dynamic websites at pocket-friendly rates.
                                     </p>
                                 </article>
                                 <article id='graphic-designing'>
-                                    <img src="assets/images/graphic-designing.jpg" alt="Graphic Designing" title="Graphic Designing">
+                                    <img src="../assets/images/graphic-designing.jpg" alt="Graphic Designing" title="Graphic Designing">
                                     <h4>Graphic Designing</h4>
                                     <p>If content is speech, then graphical designs are facial expressions. They possess
                                         ability
@@ -211,8 +211,8 @@
                                     </p>
                                 </article>
                                 <article id='digital-and-commercial-advertisement-creation'>
-                                    <img src="assets/images/digital-and-commercial-advertisement-creation.jpg" alt="Digital/Commercial Advertisement Creation" title="Digital/Commercial Advertisement Creation">
-                                    <h4>Digital/Commercial Advertisement Creation</h4>
+                                    <img src="../assets/images/digital-and-commercial-advertisement-creation.jpg" alt="Digital Advertisement Creation" title="Digital Advertisement Creation">
+                                    <h4>Digital Advertisement Creation</h4>
                                     <p>An advertisement lets you connect more effectively with your audience through
                                         appealing
                                         visuals and audio. Their absolute delivery is said to possess higher possibilities
@@ -226,7 +226,7 @@
                                     </p>
                                 </article>
                                 <article id='product-photography'>
-                                    <img src="assets/images/product-photography.jpg" alt="Product Photography" title="Product Photography">
+                                    <img src="../assets/images/product-photography.jpg" alt="Product Photography" title="Product Photography">
                                     <h4>Product Photography</h4>
                                     <p>Anything presented well, catches people’s attention. Apart from that, it also makes
                                         the
@@ -239,7 +239,7 @@
                                     </p>
                                 </article>
                                 <article id='reputation-management'>
-                                    <img src="assets/images/reputation-management.jpg" alt="Reputation Management" title="Reputation Management">
+                                    <img src="../assets/images/reputation-management.jpg" alt="Reputation Management" title="Reputation Management">
                                     <h4>Reputation Management</h4>
                                     <p>Maintaining healthy customer relations is an aspect essential to sustain in today’s
                                         technological era, where a single negative opinion about your brand can severely
@@ -256,7 +256,7 @@
                                     </p>
                                 </article>
                                 <article id='paid-promotions'>
-                                    <img src="assets/images/paid-promotions.jpg" alt="Paid Promotions" title="Paid Promotions">
+                                    <img src="../assets/images/paid-promotions.jpg" alt="Paid Promotions" title="Paid Promotions">
                                     <h4>Paid Promotions</h4>
                                     <p>Paid promotions are simply getting yourself presented to a large, yet specified group
                                         of
@@ -269,7 +269,7 @@
                                     </p>
                                 </article>
                                 <article id='brand-building'>
-                                    <img src="assets/images/brand-building.jpg" alt="Brand Building" title="Brand Building">
+                                    <img src="../assets/images/brand-building.jpg" alt="Brand Building" title="Brand Building">
                                     <h4>Brand Building</h4>
                                     <p>To acquire a position of a brand in the market, one needs to adopt the practice of
                                         analysis of real-time indicators and decide further approach at every stage. In
@@ -285,7 +285,7 @@
                                     </p>
                                 </article>
                                 <article id='sales-promotion-strategy'>
-                                    <img src="assets/images/sales-promotion-strategy.jpg" alt="Sales Promotion Strategy" title="Sales Promotion Strategy">
+                                    <img src="../assets/images/sales-promotion-strategy.jpg" alt="Sales Promotion Strategy" title="Sales Promotion Strategy">
                                     <h4>Sales Promotion Strategy</h4>
                                     <p>We also provide one-to-one consulting sessions with our sales strategist, who shall
                                         guide
@@ -301,13 +301,71 @@
                 </div>
             </div>
 
-            <?php require_once('./partials/footer-partial.php') ?>
+            <!-- Footer Starts Here -->
+            <footer>
+                <div class="container" id="contactus">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12 footer-item footer-left">
+                            <img src="../assets/images/logo-svg-white.svg" alt="Two Mads Media" class="footer-logo">
+                            <ul class="social-icons footer-social-links">
+                                <li class="social-links facebook">
+                                    <a href="https://www.facebook.com/Twomads_media">
+                                        <i class="fa fa-facebook"></i>
+                                        <span class="sr-only">TwoMads Media Facebook</span>
+                                    </a>
+                                </li>
+                                <li class="social-links instagram">
+                                    <a href="https://www.instagram.com/twomads_media/">
+                                        <i class="fa fa-instagram"></i>
+                                        <span class="sr-only">TwoMads MediaInstagram</span>
+                                    </a>
+                                </li>
+                                <li class="social-links linkedin">
+                                    <a href="https://www.linkedin.com/twomads_media/">
+                                        <i class="fa fa-linkedin"></i>
+                                        <span class="sr-only">TwoMads Media Linkedin</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 footer-item footer-right">
+                            <h4>Contact us at</h4>
+                            <ul class="menu-list footer-contact-us">
+                                <li><a href="mailto:connect@twomadsmedia.com"><i class="fa fa-envelope-o" aria-label="connect@twomadsmedia.com"></i>connect@twomadsmedia.com</a></li>
+                                <li><a href="tel:9637374782" aria-label="9 6 3 7 3 7 4 7 8 2"><i class="fa fa-mobile"></i>9637374782</a></li>
+                                <li><a href="tel:9699906857" aria-label="9 6 9 9 9 0 6 8 5 7"><i class="fa fa-mobile"></i>9699906857</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <div class="sub-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>Copyright &copy; <script>
+                                document.write(new Date().getFullYear())
+                                </script> Twomads Media</p>
+                        </div>
+                        <p class="made-with">Handcrafted with <i class="fa fa-heart" aria-hidden="true"></i> and <i class="fa fa-coffee" aria-hidden="true"></i> by <a href="http://linkedin.com/in/neelamchaubey">Neelam Chaubey</a> and <a href="https://vivekchaurasia.tech/">Vivek Chaurasia</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         </div>
         <!-- #content end -->
+        <script src="../assets/js/jquery.min.js"></script>
         <script>
+        $(document).ready(function() {
+            $('html, body').animate({
+                scrollTop: $("#services").offset().top - 110
+            }, 800);
+        });
         const urlParams = new URLSearchParams(window.location.search);
-        const activeService = urlParams.get('service');
+        // const activeService = urlParams.get('service');
+        const activeService = window.location.pathname.split("/").pop();
         // console.log('activeService: ', activeService);
         Array.from(document.querySelectorAll('#tabs ul li a')).forEach((item) => {
             // console.log(item.hash.substr(1));
@@ -355,13 +413,13 @@
         }
         </script>
         <!-- Bootstrap core JavaScript -->
-        <script src="./assets/js/jquery.min.js"></script>
-        <script src="./assets/js/accordions.js"></script>
-        <script src="./assets/js/owl.js"></script>
-        <script src="./assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/accordions.js"></script>
+        <script src="../assets/js/owl.js"></script>
+        <script src="../assets/js/bootstrap.bundle.min.js"></script>
         <!-- Additional Scripts -->
-        <script src="./assets/js/jquery.singlePageNav.min.js"></script>
-        <!-- <script src="./assets/js/custom.js"></script> -->
+        <script src="../assets/js/jquery.singlePageNav.min.js"></script>
+        <!-- <script src="../assets/js/custom.js"></script> -->
         <script>
         jQuery(document).ready(function($) {
 
@@ -380,8 +438,10 @@
 
                 if (scroll >= box - header) {
                     $("header").addClass("background-header");
+                    $('.top-logo').attr('src', '../assets/images/logo.svg');
                 } else {
                     $("header").removeClass("background-header");
+                    $('.top-logo').attr('src', '../assets/images/logo-svg-white.svg');
                 }
             });
 

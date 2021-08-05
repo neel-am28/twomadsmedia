@@ -1,0 +1,4 @@
+RewriteEngine On
+
+RewriteRule ^services/([a-zA-Z0-9-/]+)$ services.php?service=$1
+RewriteRule ^services/([a-zA-Z-0-9-]+)/ services.php?service=$1

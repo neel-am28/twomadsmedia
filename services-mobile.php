@@ -92,7 +92,7 @@
         <div class="card-header" id="headingFive">
             <h2 class="mb-0">
                 <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                    Digital/Commercial Advertisement Creation
+                    Digital Advertisement Creation
                 </button><i class="fa fa-plus"></i>
             </h2>
         </div>

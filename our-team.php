@@ -2,7 +2,11 @@
     <h2 class="team-main-heading head">Meet our team</h2>
     <section id="team" class="team-area">
         <div class="card">
-            <h2>Chinmay S. Vichare</h2>
+            <div class="title-container">
+                <h2>Chinmay S. Vichare</h2>
+                <span>Chief of Operations, Content Strategist</span>
+                <button class="read-more d-block d-lg-none">Know More</button>
+            </div>
             <div class="image-box">
                 <img src="assets/images/chief-operations.jpg" alt="Chinmay S. Vichare, Chief of Operations, Content Strategist" title="Chinmay S. Vichare, Chief of Operations, Content Strategist">
             </div>
@@ -27,12 +31,16 @@
             </div>
         </div>
         <div class="card">
-            <h2>Neha V. Sharma</h2>
+            <div class="title-container">
+                <h2>Neha Sharma</h2>
+                <span>Chief Executive Officer </span>
+                <button class="read-more d-block d-lg-none">Know More</button>
+            </div>
             <div class="image-box">
-                <img src="assets/images/ceo.jpg" alt="Neha V. Sharma, Chief Executive Officer" title="Neha V. Sharma, Chief Executive Officer">
+                <img src="assets/images/ceo.jpg" alt="Neha Sharma, Chief Executive Officer" title="Neha Sharma, Chief Executive Officer">
             </div>
             <div class="content">
-                <h4>Neha V. Sharma</h4>
+                <h4>Neha Sharma</h4>
                 <span>Chief Executive Officer </span>
                 <p>Unlike Chinmay, this mad mind is bit stable that makes her a calculated
                     predictor or predator. She has a firm hold on the nerves of business practices that helps
@@ -47,13 +55,17 @@
             </div>
         </div>
         <div class="card">
-            <h2>Mr. Vinod K. Sharma</h2>
+            <div class="title-container">
+                <h2>Mr. Vinod Sharma</h2>
+                <span>Creative Head</span>
+                <button class="read-more d-block d-lg-none">Know More</button>
+            </div>
             <div class="image-box">
-                <img src="assets/images/team-head.jpg" alt="Mr. Vinod K. Sharma, Content Maker, Ad Film Maker, Photographer, Voice Actor" title="Mr. Vinod K. Sharma, Content Maker, Ad Film Maker, Photographer, Voice Actor">
+                <img src="assets/images/team-head.jpg" alt="Mr. Vinod Sharma, Creative Head" title="Mr. Vinod Sharma, Creative Head">
             </div>
             <div class="content">
-                <h4>Mr. Vinod K. Sharma</h4>
-                <span>Content Maker, Ad Film Maker, Photographer, Voice Actor</span>
+                <h4>Mr. Vinod Sharma</h4>
+                <span>Creative Head</span>
                 <p>
                     To define him, the space would fall short but he never falls short in
                     performing a task with utmost determination and creates phenomenal contents with his 15 years of

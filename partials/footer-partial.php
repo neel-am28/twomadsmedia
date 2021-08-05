@@ -8,19 +8,19 @@
                     <li class="social-links facebook">
                         <a href="https://www.facebook.com/Twomads_media">
                             <i class="fa fa-facebook"></i>
-                            <span class="sr-only">TwoMada Media Facebook</span>
+                            <span class="sr-only">TwoMads Media Facebook</span>
                         </a>
                     </li>
                     <li class="social-links instagram">
                         <a href="https://www.instagram.com/twomads_media/">
                             <i class="fa fa-instagram"></i>
-                            <span class="sr-only">TwoMada MediaInstagram</span>
+                            <span class="sr-only">TwoMads MediaInstagram</span>
                         </a>
                     </li>
                     <li class="social-links linkedin">
                         <a href="https://www.linkedin.com/twomads_media/">
                             <i class="fa fa-linkedin"></i>
-                            <span class="sr-only">TwoMada Media Linkedin</span>
+                            <span class="sr-only">TwoMads Media Linkedin</span>
                         </a>
                     </li>
                 </ul>
@@ -43,7 +43,7 @@
             <div class="col-md-12">
                 <p>Copyright &copy; <script>
                     document.write(new Date().getFullYear())
-                    </script> Two Mads Media</p>
+                    </script> Twomads Media</p>
             </div>
             <p class="made-with">Handcrafted with <i class="fa fa-heart" aria-hidden="true"></i> and <i class="fa fa-coffee" aria-hidden="true"></i> by <a href="http://linkedin.com/in/neelamchaubey">Neelam Chaubey</a> and <a href="https://vivekchaurasia.tech/">Vivek Chaurasia</a></p>
         </div>
